@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", //carpeta compilacion para hacer la produccion el deploy
+    "rootDir": "./src", //todos los archivos correspondientes a nuestro proyecto
+    "lib": [
+      "ESNext"
+    ],//libreria configurada para produccion
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": ["src/**/*.ts"]
+}
